@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Alunos</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Lista de Alunos - Turma A</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Nota 01</th>
+                <th scope="col">Nota 02</th>
+                <th scope="col">Média Final</th>
+                <th scope="col">Classificação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Maria Silva</td>
+                <td>8.5</td>
+                <td rowspan="2">7.9</td>
+                <td>Aprovado(a)</td>
+            </tr>
+            <tr>
+                <td>João Souza</td>
+                <td>9.0</td>
+                <td>8.7</td>
+                <td>Aprovado(a)</td>
+            </tr>
+            <tr>
+                <td>Marta Santos</td>
+                <td>7.5</td>
+                <td>7.8</td>
+                <td>7.6</td>
+                <td>Aprovado(a)</td>
+            </tr>
+            <tr>
+                <td>José Costa</td>
+                <td>6.8</td>
+                <td>7.0</td>
+                <td>6.9</td>
+                <td>Aprovado(a)</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
